@@ -306,10 +306,6 @@ ol {
   padding: 3px;
 }
 
-.preloader {
-  position: absolute;
-}
-
 .result__video-container,
 .content__list-container {
   position: relative;
