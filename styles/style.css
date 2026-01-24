@@ -70,6 +70,7 @@ ol {
   display: flex;
   flex-direction: column;
   gap: 5px;
+  border: none;
 }
 
 .content__list-container {
@@ -187,10 +188,6 @@ ol {
 .search-form__checkbox-list {
   display: flex;
   gap: 15px;
-}
-
-.search-form__fieldset {
-  border: none;
 }
 
 .search-form__label {
