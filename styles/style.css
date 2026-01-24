@@ -66,6 +66,12 @@ ol {
   align-items: flex-start;
 }
 
+.search-form__fieldset {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
 .content__list-container {
   display: flex;
   flex-direction: column;
@@ -114,7 +120,10 @@ ol {
 }
 
 .content__video-card-description-container {
+  display: flex;
+  flex-direction: column;
   flex-grow: 1;
+  gap: 6px;
   max-width: 196px;
 }
 
@@ -129,7 +138,7 @@ ol {
   font-family: "Oswald", sans-serif;
   font-weight: 700;
   font-size: 75px;
-  line-height: 94%;
+  line-height: 0.94;
   text-transform: uppercase;
 }
 
@@ -148,7 +157,7 @@ ol {
   font-family: "Oswald", sans-serif;
   font-weight: 700;
   font-size: 30px;
-  line-height: 100%;
+  line-height: 1;
   text-transform: uppercase;
   text-overflow: ellipsis;
   white-space: nowrap;
@@ -160,7 +169,7 @@ ol {
   color: #fff;
   font-weight: 400;
   font-size: 18px;
-  line-height: 90%;
+  line-height: 0.9;
   -webkit-box-orient: vertical;
   -webkit-line-clamp: 4;
 }
@@ -187,7 +196,7 @@ ol {
 .search-form__label {
   display: flex;
   align-items: center;
-  gap: 2px;
+  gap: 5px;
   width: fit-content;
 }
 
@@ -221,7 +230,7 @@ ol {
   width: 19px;
   height: 19px;
   border: 1px solid #fff;
-  padding: 2px;
+  padding: 1px;
 }
 
 .search-form__pseudo-checkbox::after {
@@ -261,6 +270,7 @@ ol {
 
 .more-button {
   width: 100%;
+  max-width: 390px;
   min-height: 34px;
 }
 
@@ -303,7 +313,7 @@ ol {
 }
 
 .content__list-item {
-  padding: 3px;
+  padding: 0 3px;
 }
 
 .result__video-container,
